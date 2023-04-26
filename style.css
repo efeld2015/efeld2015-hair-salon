@@ -6,7 +6,7 @@
 }
 
 nav {
-    background: beige; /*refer to first version for colors*/
+    background: #e7b897;
 }
 
 .navList {
@@ -72,6 +72,8 @@ section {
  
     .column1, .column2, .column3 {
         flex: 33.33%;
-        justify-content: center;
-        
+        justify-content: center;  
     }
+
+    /*MOMENTUM SECTION*/
+    /*Add different placeholder text*/
