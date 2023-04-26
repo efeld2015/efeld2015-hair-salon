@@ -1,5 +1,30 @@
 * {
     box-sizing: border-box;
     margin: auto 0;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*or does this go under html?*/
 }
+
+nav {
+    background: beige; /*refer to first version for colors*/
+}
+
+.navList {
+    border: 3px solid cyan; /*delete later*/
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+/*HERO*/
+section {
+    border: 3px solid cyan; /*delete later*/
+}
+
+.hero {
+    padding: 50px;
+    min-height: 100%;
+    background-image: url(https://www.newdossalon.com/resources/the-beauty-of-diversity-by-giovanni-iovino-team-cotril-hair-collection001-__scheda-orizz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
