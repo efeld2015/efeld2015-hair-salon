@@ -58,11 +58,20 @@ section {
         width: 100%;
         text-align: center;
         padding: 10px 0px;
-        background: #e7b897;
+        background: #F7E7CE;
         /*text color?*/
     }
 
+    .column h2 {
+        color:#2c1511;
+    }
+
+    .column1 h2, .column2 h2, .column3 h2 {
+        padding: 25px;
+    }
+ 
     .column1, .column2, .column3 {
         flex: 33.33%;
         justify-content: center;
+        
     }
