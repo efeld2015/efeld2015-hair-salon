@@ -28,3 +28,36 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     }
+
+    /*HERO TEXT*/
+
+    .hero h1, h5 {
+        font-size: 150px;
+        color: #F7E7CE;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero h5 {
+        font-size: 25px;
+    }
+
+    /*SECTION LINKS*/
+    .hero a, .momentum a {
+        color: #2c1511;
+        background: #e7b897;
+        border-radius: 5px;
+    }
+
+    /*SERVICES COLUMNS*/
+    .columns-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .column1, .column2, .column3 {
+        flex: 33.33%;
+        justify-content: center;
+    }
