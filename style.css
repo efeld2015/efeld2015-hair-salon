@@ -51,7 +51,7 @@ section {
     }
 
     /*SERVICES COLUMNS*/
-    .columns-container {
+    .columns-container, .columns-container-staff {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -115,3 +115,15 @@ section {
         background: #e7b897;
         border-radius: 5px;
     }
+
+    .column {
+        background: #e7b897;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background:#2c1511;
+        color: #F7E7CE;
+      }
+      
