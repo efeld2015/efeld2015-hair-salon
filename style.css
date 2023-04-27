@@ -13,14 +13,20 @@ nav {
     border: 3px solid cyan; /*delete later*/
     padding: 1rem;
     display: flex;
-    list-style: none;
     justify-content: space-evenly;
 }
 
-/*HERO*/
-section {
-    border: 3px solid cyan; /*delete later*/
+.navItem a, ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color:#2c1511;
+    font-weight: bold;
 }
+
+.navItem a:hover {
+    color: #F7E7CE;
+}
+/*HERO*/
 
 .hero {
     padding: 50px;
@@ -44,13 +50,16 @@ section {
     }
 
     /*SECTION LINKS*/
-    .hero a, .momentum a {
+    .hero a {
         color: #2c1511;
         background: #e7b897;
         border-radius: 5px;
     }
 
     /*SERVICES COLUMNS*/
+    .services {
+        background:  #F7E7CE;
+    }
     .columns-container, .columns-container-staff {
         display: flex;
         flex-direction: row;
@@ -73,6 +82,7 @@ section {
     .column1, .column2, .column3 {
         flex: 33.33%;
         justify-content: center;  
+        background: #F7E7CE;
     }
 
     /*MOMENTUM SECTION*/
