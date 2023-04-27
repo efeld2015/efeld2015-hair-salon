@@ -79,8 +79,9 @@ nav {
 
     .column1 h2, .column2 h2, .column3 h2 {
         padding: 25px;
+       
     }
- 
+
     .column1, .column2, .column3 {
         flex: 33.33%;
         justify-content: center;  
@@ -88,7 +89,7 @@ nav {
       
     }
 
-    /*MOMENTUM SECTION*/
+    /*FIND YOUR STYLE SECTION*/
 
    .flex-container {
     display: flex;
