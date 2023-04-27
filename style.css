@@ -50,10 +50,12 @@ nav {
     }
 
     /*SECTION LINKS*/
-    .hero a {
+     .yourStyle a {
         color: #2c1511;
         background: #e7b897;
         border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
     }
 
     /*SERVICES COLUMNS*/
