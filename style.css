@@ -71,6 +71,9 @@ nav {
         /*text color?*/
     }
 
+    .heidi, .mackKai, .jonathan {
+        box-shadow: 8px 8px 5px gray;
+    }
     .column h2 {
         color:#2c1511;
     }
@@ -86,7 +89,6 @@ nav {
     }
 
     /*MOMENTUM SECTION*/
-    /*Add different placeholder text*/
 
    .flex-container {
     display: flex;
