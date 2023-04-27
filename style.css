@@ -85,6 +85,7 @@ nav {
         flex: 33.33%;
         justify-content: center;  
         background: #F7E7CE;
+      
     }
 
     /*MOMENTUM SECTION*/
@@ -114,7 +115,7 @@ nav {
     }
 
     .yourStyle h2 {
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .yourStyle p {
@@ -127,9 +128,13 @@ nav {
         border-radius: 5px;
     }
 
-    .ourSt h2 {
-        background:#e7b897;
+    .sty {
+        border: 2px solid cyan;
+        background: #e7b897;
+        text-align: center;
+        font-size: 80px;
     }
+
     .column {
         background: #e7b897;
     }
