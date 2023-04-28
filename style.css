@@ -5,6 +5,7 @@
     font-family: 'Playfair Display';
 }
 
+/* NAVBAR SECTION*/ 
 nav {
     background: #e7b897;
 }
@@ -25,8 +26,8 @@ nav {
 .navItem a:hover {
     color: #F7E7CE;
 }
-/*HERO*/
 
+/*HERO*/
 .hero {
     padding: 50px;
     min-height: 100%;
@@ -36,7 +37,6 @@ nav {
     }
 
     /*HERO TEXT*/
-
     .hero h1, h5 {
         font-size: 150px;
         color: #F7E7CE;
@@ -48,21 +48,11 @@ nav {
         font-size: 25px;
     }
 
-    /*SECTION LINKS*/
-     .yourStyle a {
-        color: #2c1511;
-        background: #e7b897;
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
-    }
-
     /*SERVICES COLUMNS*/
     section .services {
         background: #F7E7CE;
     }
    
-
     .columns-container, .columns-container-staff {
         display: flex;
         flex-direction: row;
@@ -120,13 +110,17 @@ nav {
     }
 
     .yourStyle p {
-        padding: 5px;
+        padding-bottom: 20px;
     }
 
-     .yourStyle a, .hero a {
-        color:#2c1511;
+    /*FIND YOUR STYLE LINKS*/
+    .yourStyle a {
+        color: #2c1511;
         background: #e7b897;
         border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+       
     }
 
     .sty {
