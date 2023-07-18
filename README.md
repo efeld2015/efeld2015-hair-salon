@@ -13,7 +13,7 @@ Eventually I will add
 -an appointment booking feature
 
 # Lessons Learned
-Ran into issues with images not responding to smaller browser sizes, so this made me brush up on media queries
+Ran into issues with images not responding to smaller browser sizes, so this made me brush up on media queries.
 When working on the layout, and then styling my various containers, it was super helpful to outline each container and/or column in a bright color
 so I could see how the code would change the area I was working on at any given time. Then I deleted the outlines when the project was completed.
 
