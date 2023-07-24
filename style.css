@@ -127,6 +127,7 @@ ul img {
        
     }
 
+    /* WTF IS STY ABOUT? FIX IT */
     .sty {
         background: #e7b897;
         text-align: center;
@@ -155,3 +156,80 @@ ul img {
         color: #F7E7CE;
       }
       
+      /* FAQ section */
+      .faq-section {
+        background: #e7b897;
+        font-size: 45px;
+        color: #2c1511;
+    
+      }
+
+      /* FAQ ACCORDION */
+      .content {
+        width:100%;
+        padding: 0;
+      }
+      
+      .center {
+        max-width: 270px;
+        padding:20px;
+      }
+      
+      .teacher {
+        position: relative;
+        background: /*#e7b897;*/#f7e7ce;
+        margin: 0;
+        padding: 10px 10px 10px 50px;
+        display: block;
+        width: 100%;
+      }
+      
+      .bios {
+        padding: 0px 15px;
+        margin: 5px 0;
+        width: 100%!important;
+        height: 0;
+        overflow: hidden;
+        z-index: -1;
+        position: relative;
+        opacity: 0;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -o-transition: .3s ease;
+        transition: .3s ease;
+        
+      }
+      .teacherS:checked ~ .bios{
+        height: auto;
+        opacity: 1;
+        padding: 15px;
+      }
+      
+      /*FAQ Toggle*/
+      .plus {
+        position: absolute;
+      margin-left: 10px;
+        z-index: 5;
+        font-size: 2em;
+        line-height: 100%;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -o-transition: .3s ease;
+        transition: .3s ease;
+      }
+      
+      .teacherS:checked ~ .plus {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      
+      .teacherS {
+        display: none;
+      }
