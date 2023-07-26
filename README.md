@@ -1,4 +1,4 @@
-# Soleil Hair Salon
+# Soleil Modern Hair Salon
 A sleek, responsive website for a hair salon. 'Soleil' means 'sun' in French and is pronounced 'so-lay.'
 
 # How It's Made
