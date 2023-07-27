@@ -183,8 +183,9 @@ ul img {
       }
       
       .center {
+        margin: 0 auto;
         max-width: 270px;
-        padding:20px;
+        /*padding:20px;*/
       }
       
       .teacher {
@@ -194,6 +195,7 @@ ul img {
         padding: 10px 10px 10px 50px;
         display: block;
         width: 100%;
+        cursor: pointer;
       }
       
       .bios {
