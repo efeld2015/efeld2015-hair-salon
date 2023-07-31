@@ -4,7 +4,10 @@ A sleek, responsive website for a hair salon. 'Soleil' means 'sun' in French and
 # How It's Made
 Tech used: HTML, CSS
 
-I took this as a chance to really lean into my design skills; I chose an earth-toned color palette, photos that illustrated the types of clients the 
+I took this as a chance to really lean into my design skills; I chose an earth-toned color palette:
+![image](https://github.com/efeld2015/efeld2015-hair-salon/assets/114758367/59cb8f18-d276-4e06-9c4e-37e07f03daef)
+
+Photos that illustrated the types of clients the 
 salon wanted to attract, added subtle hover effects on buttons, and aimed to use a minimal amount of text to keep the site neat and easy to use.
 I used CSS Flexbox for positioning elements and media queries for making the site responsive. 
 
