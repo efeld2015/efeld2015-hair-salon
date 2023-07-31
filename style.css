@@ -162,6 +162,10 @@ ul img {
     .heidi, .mack-Kai, .jonathan {
         box-shadow: 5px 8px 5px gray;
     }
+
+    .book-link:hover {
+      background:#F7E7CE;
+    }
     footer {
         text-align: center;
         padding: 25px;
