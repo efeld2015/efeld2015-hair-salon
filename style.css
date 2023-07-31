@@ -55,7 +55,7 @@ ul img {
     /*SERVICES COLUMNS*/
     section .services {
         background:#F7E7CE;
-       
+        
     }
      img {
     padding-top: 30px;
@@ -90,11 +90,10 @@ ul img {
     .column-1, .column-2, .column-3 {
         flex: 33.33%;
         justify-content: center;  
+        
         /*background-image:linear-gradient(#F7E7CE, beige)*/
-        
-        
-      
     }
+
     /*FIND YOUR STYLE SECTION*/
 
    .flex-container {
@@ -138,7 +137,9 @@ ul img {
         text-decoration: none;
        
     }
-
+.yourStyle a:hover{
+  background:#F7E7CE;
+}
     /* WTF IS STY ABOUT? FIX IT */
     .stylists {
         background: #e7b897;
