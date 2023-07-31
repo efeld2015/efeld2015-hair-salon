@@ -140,7 +140,7 @@ ul img {
     }
 
     /* WTF IS STY ABOUT? FIX IT */
-    .sty {
+    .stylists {
         background: #e7b897;
         text-align: center;
         font-size: 80px;
@@ -158,7 +158,7 @@ ul img {
         text-decoration: none;
     }
 
-    .heidi, .mackKai, .jonathan {
+    .heidi, .mack-Kai, .jonathan {
         box-shadow: 5px 8px 5px gray;
     }
     footer {
