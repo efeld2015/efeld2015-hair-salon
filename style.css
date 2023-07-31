@@ -81,13 +81,13 @@ ul img {
         color:#2c1511;
     }
 
-    .column1 h2, .column2 h2, .column3 h2 {
+    .column-1 h2, .column-2 h2, .column-3 h2 {
         padding: 25px;
        
        
     }
 
-    .column1, .column2, .column3 {
+    .column-1, .column-2, .column-3 {
         flex: 33.33%;
         justify-content: center;  
         /*background-image:linear-gradient(#F7E7CE, beige)*/
@@ -150,7 +150,7 @@ ul img {
         background: #e7b897;
     }
     
-    .column1 a, .column2 a, .column3 a {
+    .column-1 a, .column-2 a, .column-3 a {
         color:  #2c1511;
         background:  beige;
         border-radius: 5px;
