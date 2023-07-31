@@ -195,7 +195,7 @@ ul img {
         
       }
       
-      .teacher {
+      .question {
         position: relative;
         background: /*#e7b897;*/#f7e7ce;
         margin: 0;
@@ -220,7 +220,7 @@ ul img {
         transition: .3s ease;
         
       }
-      .teacherS:checked ~ .bios{
+      .questionS:checked ~ .bios{
         height: auto;
         opacity: 1;
         padding: 15px;
@@ -245,13 +245,13 @@ ul img {
         transition: .3s ease;
       }
       
-      .teacherS:checked ~ .plus {
+      .questionS:checked ~ .plus {
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         transform: rotate(45deg);
       }
       
-      .teacherS {
+      .questionS {
         display: none;
       }
